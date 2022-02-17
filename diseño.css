@@ -1,0 +1,41 @@
+body
+    {   /* Tipografia */
+        font-family: 'Roboto', sans-serif;
+        background:rgb(0, 0, 0);
+        color: white;
+    }
+
+.menu
+    {
+        list-style: none;
+        padding: 0;
+        background: rgb(45, 0, 82);
+        width: 100%;
+        max-width: 1000px;
+        /* Esto es para que quede centrado */
+        margin: auto;
+    }
+.menu li a
+    {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        /* Es para que la lista tenga un espaciado uniforme*/
+        padding: 80 px;
+        /* Permite que el texto no este tan pegado*/
+        margin: 1rem;
+    }
+ .menu li
+    {
+        /* El texto estara de forma horizontal*/
+        display: inline-block;
+        /* Centrar el texto */
+        text-align:center;
+    }
+.menu li a:hover
+    {   /* Cuando se pase el mouse por el texto, este cambiara de color*/
+        background:rgb(109, 53, 177)
+    }
+/*---------------------------------------------------------*/
+.derecha {
+    float: right;
+ }
